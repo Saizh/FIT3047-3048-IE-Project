@@ -1,0 +1,143 @@
+.visible{
+  display: block;
+  max-height: 350em;
+  transition: height 1s ease-in-out;
+}
+
+.preVisible{
+  display: block;
+  height: 0;
+  max-height: 0;
+  transition: height 1s ease-in-out;
+}
+.invisible{
+  display: none;
+	height: 0;
+	overflow: hidden;
+  max-height: 0;
+	transition: height 1s ease-in-out;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:2fr 2fr ;
+    grid-column-gap: 200px
+
+
+}
+
+.units{
+    font-size: 24px;
+    border: 2px solid dodgerblue;
+    border-radius: 8px;
+    background-color: dodgerblue;
+    color: white;
+    padding:12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom:20px;
+}
+
+.card-body{
+    padding: 0rem;
+}
+
+.card-text{
+    margin:0;
+    text-align: center;
+}
+
+.secbutton:hover{
+    background-color:#EFEFEe;
+    cursor:pointer;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header.masthead{
+    width:100%;
+    height:60%;
+}
+
+.dropbtn {
+    background-color: darkgrey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    width:100%;
+    height: 50px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: lightgrey;
+}
+
+.drop-content {
+    background-color: #f8f9fa;
+    border: 1px solid lightgrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+button:focus {outline:0;}
+
+.allunits {
+    width:100%;
+    text-align: center;
+}
+
+.horizontal {
+    font-family: Arial;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.confirmbtn1 {
+    background-color: #e7e7e7; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 150px;
+}
+
+.confirmbtn2 {
+    background-color: #e7e7e7; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 150px;
+}
+
+.confirmbtn1:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.confirmbtn2:hover{
+    background-color: #f44336;
+    color: white;
+}

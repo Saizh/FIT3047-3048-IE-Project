@@ -1,0 +1,8 @@
+.not_visible{
+  display: none;
+  transition
+}
+
+.currently_visible{
+  display: none;
+}

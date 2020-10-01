@@ -1,0 +1,41 @@
+footer {
+    margin-top: 32px;
+    margin-bottom: 0;
+    padding: 18px 8px 8px 8px;
+    border-top: solid 1px #f1f1f1;
+}
+
+footer .copyright {
+    margin-top: 12px;
+}
+
+a {
+    color: blue;
+}
+
+article pre {
+    background-color: #f8f8f8;
+    padding: 12px 24px;
+}
+
+article code {
+    background-color: #ffecec;
+    padding: 4px;
+}
+
+/**
+ * It is really only on the main landing pages that we care about enticing the user with fancy background graphics.
+ * When it comes time to doing complex business workflows, we want to push the heading more to the top and forget
+ * about it, rather than making a hero out of the main background image.
+ */
+header.masthead .page-heading.compact-page-heading {
+    padding: 50px 0;
+}
+
+header.masthead .page-heading.compact-page-heading h1 {
+    font-size: 60px;
+}
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
