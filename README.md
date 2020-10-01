@@ -4,7 +4,7 @@
 
 Current website Ecoutez Bien is a website that dedicated to students who wish to improve their French language, particularly in listening skills. Alexander Leahy and Emilie Leahy are the founder of Ecoutez Bien. Ecoutez Bien was developed in 2007 and used for Victorian Certificate of Education (VCE) program.
 
-<h2>Circumstances Leading Up to Our project</2>
+<h2>Circumstances Leading Up to Our project</h2>
 
 Essentially, Alex wants to have two branches; Ecoutez Bien and Language Tub. So, our team is going to develop a new Language Tub website (enrolment system) for him. They plan to make Language Tub as an official branch of their website and use it for International Baccalaureate (IB) program. 
 
