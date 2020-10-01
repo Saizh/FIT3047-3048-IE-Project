@@ -1,51 +1,15 @@
-# CakePHP Application Skeleton
+<h1>Project Description</h1>
 
-[![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
-[![Total Downloads](https://img.shields.io/packagist/dt/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
+<h2>Project Background</h2>
 
-A skeleton for creating applications with [CakePHP](https://cakephp.org) 3.x.
+Current website Ecoutez Bien is a website that dedicated to students who wish to improve their French language, particularly in listening skills. Alexander Leahy and Emilie Leahy are the founder of Ecoutez Bien. Ecoutez Bien was developed in 2007 and used for Victorian Certificate of Education (VCE) program.
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+<h2>Circumstances Leading Up to Our project</2>
 
-## Installation
+Essentially, Alex wants to have two branches; Ecoutez Bien and Language Tub. So, our team is going to develop a new Language Tub website (enrolment system) for him. They plan to make Language Tub as an official branch of their website and use it for International Baccalaureate (IB) program. 
 
-1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
+The Language Tub website basically can be used both by the students to learn French Language and the teachers who want to help their students to learn French Language because the website provides many exercises with complete answers, script and suggested technique that very useful to improve students’ skills. 
 
-If Composer is installed globally, run
+They want to restructure the website in term of framework and database so that those two websites (Ecoutez Bien and Language Tub) can have two different databases and systems with minor modification. Language Tub requires improvement in usability and performance in order for the users to have a better experience while using the website. The contents and features of the website will be restructured based for IB program.
 
-```bash
-composer create-project --prefer-dist cakephp/app
-```
-
-In case you want to use a custom app dir name (e.g. `/myapp/`):
-
-```bash
-composer create-project --prefer-dist cakephp/app myapp
-```
-
-You can now either use your machine's webserver to view the default home page, or start
-up the built-in webserver with:
-
-```bash
-bin/cake server -p 8765
-```
-
-Then visit `http://localhost:8765` to see the welcome page.
-
-## Update
-
-Since this skeleton is a starting point for your application and various files
-would have been modified as per your needs, there isn't a way to provide
-automated upgrades, so you have to do any updates manually.
-
-## Configuration
-
-Read and edit `config/app.php` and setup the `'Datasources'` and any other
-configuration relevant for your application.
-
-## Layout
-
-The app skeleton uses a subset of [Foundation](http://foundation.zurb.com/) (v5) CSS
-framework by default. You can, however, replace it with any other library or
-custom styles.
+They want the teacher to have a direct enrolment procedure so that they are able to register and add their students into the classes without dealing with the admin. By having a direct procedure in student enrolment to the system, they also can avoid a data entry issue by the private tutors. They also want the teachers have a control in managing their class within themselves. Most importantly, the founder really hope that the teachers and students trust their website to the point that the teachers able to conduct the test by using Language Tub.
